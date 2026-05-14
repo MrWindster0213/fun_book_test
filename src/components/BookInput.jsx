@@ -20,7 +20,7 @@ export default function BookInput({ onAnalyze, loading }) {
       <textarea
         id="book-text"
         className="textarea"
-        placeholder="Например: „Не е трудно да умреш, Санчо." Старецът го гледаше с печални очи..."
+        placeholder='Например: „Не е трудно да умреш, Санчо." Старецът го гледаше с печални очи..."'
         value={text}
         onChange={e => setText(e.target.value.slice(0, maxChars))}
         onKeyDown={handleKeyDown}
